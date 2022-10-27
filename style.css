@@ -1,0 +1,21 @@
+.main{
+  background-color: chocolate;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.grid {
+  margin-left: 250px;
+  margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  
+.score{
+  margin-left: 600px;
+  text-decoration: solid 100px;
+}
