@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
       {
         name: 'lion',
-        img: 'ClickGo/lion.png',
+        img: 'url(lion.png)',
       },
       {
         name: 'housefly',
-        img: 'ClickGo/housefly.png',
+        img: 'url(housefly.png)',
       },
       {
         name: 'doraemon',
-        img: 'ClickGo/doraemon.png',
+        img: 'url(doraemon.png)',
       },
       {
         name: 'lamb',
-        img: 'ClickGo/lamb.png',
+        img: 'url(lamb.png)',
       },
       {
         name: 'monkey',
-        img: 'ClickGo/monkey.png',
+        img: 'url(monkey.png)',
       },
       {
         name: 'turtle',
-        img: 'ClickGo/turtle.png',
+        img: 'url(turtle.png)',
       },
       {
         name: 'lion',
-        img: 'ClickGo/lion.png',
+        img: 'url(lion.png)',
       },
       {
         name: 'housefly',
-        img: 'ClickGo/housefly.png',
+        img: 'url(housefly.png)',
       },
       {
         name: 'doraemon',
-        img: 'ClickGo/doraemon.png',
+        img: 'url(doraemon.png)',
       },
       {
         name: 'lamb',
-        img: 'ClickGo/lamb.png',
+        img: 'url(lamb.png)',
       },
       {
         name: 'monkey',
-        img: 'ClickGo/monkey.png',
+        img: 'url(monkey.png)',
       },
       {
         name: 'turtle',
-        img: 'ClickGo/turtle.png',
+        img: 'url(turtle.png)',
       }
     ]
   
@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
         alert('You found a match')
-        cards[optionOneId].setAttribute('src', 'blank3.jpg')
-        cards[optionTwoId].setAttribute('src', 'blank3.jpg')
+        cards[optionOneId].setAttribute('src', 'url(blank3.jpg)')
+        cards[optionTwoId].setAttribute('src', 'url(blank3.jpg)')
         cards[optionOneId].removeEventListener('click', flipCard)
         cards[optionTwoId].removeEventListener('click', flipCard)
         cardsWon.push(cardsChosen)
