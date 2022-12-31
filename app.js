@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //card options
     const cardArray = [
       {
-        name: 'loin',
-        img: 'ClickGo/loin.png',
+        name: 'lion',
+        img: 'ClickGo/lion.png',
       },
       {
         name: 'housefly',
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         name: 'doraemon',
-        img: 'ClickGo/insect.png',
+        img: 'ClickGo/doraemon.png',
       },
       {
         name: 'lamb',
@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         img: 'ClickGo/turtle.png',
       },
       {
-        name: 'loin',
-        img: 'ClickGo/loin.png',
+        name: 'lion',
+        img: 'ClickGo/lion.png',
       },
       {
         name: 'housefly',
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         name: 'doraemon',
-        img: 'ClickGo/insect.png',
+        img: 'ClickGo/doraemon.png',
       },
       {
         name: 'lamb',
