@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
       {
         name: 'loin',
-        img: 'loin.png',
+        img: 'ClickGo/loin.png',
       },
       {
         name: 'housefly',
-        img: 'housefly.png',
+        img: 'ClickGo/housefly.png',
       },
       {
         name: 'doraemon',
